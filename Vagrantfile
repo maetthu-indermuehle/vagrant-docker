@@ -21,7 +21,7 @@ Vagrant.configure('2') do |config|
     vm_hostname = "#{vm_name}.#{fqdn}"
     vm_ip       = '192.168.215.13'
     vb_name     = "maetthu Vagrant Test - #{vm_name}"
-    box         = 'puppetlabs/ubuntu-14.04-64-nocm'
+    box         = 'ubuntu/trusty64'
 
     # basic parameters
     vm_config.vm.hostname = vm_hostname
